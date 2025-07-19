@@ -206,10 +206,5 @@ WPAT/
 * 🖥️ **Nueva GUI** — Interfaz gráfica en fase experimental
 * 🧹 **Mejoras generales en todos los módulos existentes** — Detección más precisa, rendimiento mejorado
 
-## 📜 Licencia y Ética
-
-Distribuido bajo licencia **GPL-3.0**.
-Ver [LICENSE](LICENSE) para más detalles.
-
 **⚠️ Nota de Uso Ético:**  
 Este software debe usarse únicamente en sistemas con permiso explícito del propietario. Incluye características avanzadas que podrían ser consideradas intrusivas si se usan sin autorización. El mal uso es responsabilidad exclusiva del usuario final.
