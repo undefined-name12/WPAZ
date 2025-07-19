@@ -7,8 +7,6 @@
 
 Herramienta profesional de auditoría de seguridad para sitios WordPress (uso ético exclusivo).
 
-🔗 Sitio web oficial: [https://wpat.netlify.app/](https://wpat.netlify.app/)
-
 ## 🚀 Características Principales
 
 - 🔍 **Módulos Especializados:**
