@@ -1,6 +1,5 @@
 # 🛡️ WordPress Professional Audit Tool - Ethical WordPress Security Auditor
 
-![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)
 ![Installation](https://img.shields.io/badge/Installation-pipx%20%7C%20git-blueviolet)
@@ -89,13 +88,13 @@ wpat --gui
 **Opción A – Solo CLI:**
 
 ```bash
-pipx install git+https://github.com/Santitub/WPAT.git
+pipx install git+https://github.com/undefined-name12/WPAZ.git
 ```
 
 **Opción B – Con soporte GUI:**
 
 ```bash
-pipx install 'git+https://github.com/Santitub/WPAT.git#egg=wpat[gui]'
+pipx install 'git+https://github.com/undefined-name12/WPAZ.git#egg=wpat[gui]'
 ```
 
 ---
@@ -105,7 +104,7 @@ pipx install 'git+https://github.com/Santitub/WPAT.git#egg=wpat[gui]'
 > Ideal para colaboradores o desarrolladores.
 
 ```bash
-git clone https://github.com/Santitub/WPAT.git
+git clone https://github.com/undefined-name12/WPAZ.git
 cd WPAT
 pip install ".[gui]"
 ```
@@ -188,13 +187,13 @@ WPAT/
 └── scripts/            # Módulos de auditoría
     ├── __init__.py
     ├── ssl_checker.py
-    ├── cors_detector.py          # Nuevo
+    ├── cors_detector.py
     ├── user_enumeration.py
     ├── xmlrpc_analyzer.py
     ├── sensitive_files.py
     ├── wp_version.py
     ├── rest_api_analyzer.py
-    ├── security_txt.py           # Nuevo
+    ├── security_txt.py
     ├── plugin_scanner.py
     ├── theme_scanner.py
     └── brute_force.py
@@ -205,7 +204,6 @@ WPAT/
 * 🌐 **Nuevo módulo: `cors_detector.py`** — Detecta configuraciones de CORS potencialmente inseguras
 * 🐋 **Imagen oficial Docker añadida** — Facilita la ejecución sin instalación local
 * 🖥️ **Nueva GUI** — Interfaz gráfica en fase experimental
-* 🌐 **Página web oficial** — Documentación y novedades centralizadas en [https://wpat.netlify.app/](https://wpat.netlify.app/)
 * 🧹 **Mejoras generales en todos los módulos existentes** — Detección más precisa, rendimiento mejorado
 
 ## 📜 Licencia y Ética
