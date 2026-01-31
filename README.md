@@ -36,8 +36,8 @@ Herramienta profesional de auditoría de seguridad para sitios WordPress (uso é
 ### ✅ Método 1: Instalación con pip (modo tradicional)
 
 ```bash
-# Instalar WPAT (solo consola, sin GUI)
-pip install wpat
+# Instalar WPAZ (solo consola, sin GUI)
+pip install wpaz
 
 # Ejecutar WPAT en modo CLI
 wpat
@@ -46,11 +46,11 @@ wpat
 #### 🖥️ ¿Quieres la versión con interfaz gráfica (GUI)?
 
 ```bash
-# Instalar WPAT con soporte para GUI (PyQt5)
+# Instalar WPAZ con soporte para GUI (PyQt5)
 pip install "wpat[gui]"
 
 # Ejecutar la GUI
-wpat-gui
+wpaz-gui
 ```
 
 ---
@@ -65,7 +65,7 @@ python -m pip install --user pipx
 python -m pipx ensurepath
 
 # Instalar WPAT (solo CLI)
-pipx install wpat
+pipx install wpaz
 
 # Ejecutar
 wpat
@@ -75,10 +75,10 @@ wpat
 
 ```bash
 # Versión GUI usando pipx (con dependencias gráficas)
-pipx install "wpat[gui]"
+pipx install "wpaz[gui]"
 
 # Ejecutar GUI
-wpat --gui
+wpaz --gui
 ```
 
 ---
@@ -105,7 +105,7 @@ pipx install 'git+https://github.com/undefined-name12/WPAZ.git#egg=wpat[gui]'
 
 ```bash
 git clone https://github.com/undefined-name12/WPAZ.git
-cd WPAT
+cd WPAZ
 pip install ".[gui]"
 ```
 
