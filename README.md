@@ -47,7 +47,7 @@ wpat
 
 ```bash
 # Instalar WPAZ con soporte para GUI (PyQt5)
-pip install "wpat[gui]"
+pip install "wpaz[gui]"
 
 # Ejecutar la GUI
 wpaz-gui
@@ -68,7 +68,7 @@ python -m pipx ensurepath
 pipx install wpaz
 
 # Ejecutar
-wpat
+wpaz
 ```
 
 #### 🖥️ Para instalar WPAT con GUI usando pipx:
@@ -115,10 +115,10 @@ pip install ".[gui]"
 
 ```bash
 # Descargar la imagen oficial de WPAT
-sudo docker pull santitub/wpat
+sudo docker pull undefined-name12/wpaz
 
 # Ejecutar WPAT en contenedor Docker
-sudo docker run -it --rm santitub/wpat
+sudo docker run -it --rm undefined-name12/wpaz
 ```
 
 ### 📌 Requisitos del sistema
@@ -147,7 +147,7 @@ Estas son las bibliotecas necesarias para el correcto funcionamiento de WPAT:
 wpat / wpat --gui)
 
 # Desde Docker
-docker run -it --rm santitub/wpat
+docker run -it --rm undefined-name12/wpaz
 
 # Desde GUI
 python main.py --gui
