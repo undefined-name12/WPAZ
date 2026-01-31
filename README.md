@@ -1,4 +1,4 @@
-# 🛡️ WordPress Professional Audit Tool - Ethical WordPress Security Auditor
+# 🛡️ WordPress Professional Audit Tool - Ethical WordPress Security Auditor    
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
 ![Maintenance](https://img.shields.io/badge/Maintained-Yes-brightgreen.svg)
