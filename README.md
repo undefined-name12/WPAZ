@@ -94,7 +94,7 @@ pipx install git+https://github.com/undefined-name12/WPAZ.git
 **Opción B – Con soporte GUI:**
 
 ```bash
-pipx install 'git+https://github.com/undefined-name12/WPAZ.git#egg=wpat[gui]'
+pipx install 'git+https://github.com/undefined-name12/WPAZ.git#egg=wpaz[gui]'
 ```
 
 ---
