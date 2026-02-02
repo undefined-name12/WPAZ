@@ -7,7 +7,7 @@ except FileNotFoundError:
     long_description = ""
 
 setup(
-    name="wpat",
+    name="wpaz",
     version="2.0",
     author="Undefined_name",
     license="GPLv3",
@@ -15,7 +15,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/undefined-name12/WPAZ",
-    packages=find_packages(include=["wpat", "wpat.*"]),
+    packages=find_packages(include=["wpaz", "wpaz.*"]),
     install_requires=[
         'colorama',
         'requests',
