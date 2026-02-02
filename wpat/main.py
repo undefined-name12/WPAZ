@@ -66,18 +66,18 @@ def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_banner():
+    ██╗    ██╗██████╗  █████╗ ████████╗
+██║    ██║██╔══██╗██╔══██╗╚═══██╔╝
+██║ █╗ ██║██████╔╝███████║   ██╔╝ 
+██║███╗██║██╔═══╝ ██╔══██║  ██╔╝  
+╚███╔███╔╝██║     ██║  ██║ ███████╗
+ ╚══╝╚══╝ ╚═╝     ╚═╝  ╚═╝ ╚══════╝
     banner = f"""
 {Style.BRIGHT}{Fore.CYAN}
-██╗    ██╗██████╗  █████╗ ████████╗
-██║    ██║██╔══██╗██╔══██╗╚══██╔══╝
-██║ █╗ ██║██████╔╝███████║   ██║   
-██║███╗██║██╔═══╝ ██╔══██║   ██║   
-╚███╔███╔╝██║     ██║  ██║   ██║   
- ╚══╝╚══╝ ╚═╝     ╚═╝  ╚═╝   ╚═╝   
 {Fore.MAGENTA}─────────────────────────────────────────────
 {Fore.WHITE}       WordPress Professional Audit Tool
 {Fore.CYAN}          Versión 2.0 · Ethical Hacking
-{Fore.YELLOW}         Creado por Santitub | {Fore.BLUE}https://github.com/Santitub
+{Fore.YELLOW}         Creado por undefined_name| {Fore.BLUE}https://github.com/undefined-name12
 {Fore.MAGENTA}─────────────────────────────────────────────
 {Style.RESET_ALL}"""
     print(banner)
@@ -124,7 +124,7 @@ def main():
     args = parser.parse_args()
 
     if args.gui:
-        os.system(f"{sys.executable} -m wpat.gui")
+        os.system(f"{sys.executable} -m wpaz.gui")
         return
 
     print_banner()
