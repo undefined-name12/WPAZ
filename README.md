@@ -39,8 +39,8 @@ Herramienta profesional de auditoría de seguridad para sitios WordPress (uso é
 # Instalar WPAZ (solo consola, sin GUI)
 pip install wpaz
 
-# Ejecutar WPAT en modo CLI
-wpat
+# Ejecutar WPAZ en modo CLI
+wpaz
 ```
 
 #### 🖥️ ¿Quieres la versión con interfaz gráfica (GUI)?
