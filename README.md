@@ -71,7 +71,7 @@ pipx install wpaz
 wpaz
 ```
 
-#### 🖥️ Para instalar WPAT con GUI usando pipx:
+#### 🖥️ Para instalar WPAZ con GUI usando pipx:
 
 ```bash
 # Versión GUI usando pipx (con dependencias gráficas)
@@ -144,7 +144,7 @@ Estas son las bibliotecas necesarias para el correcto funcionamiento de WPAT:
 
 ```bash
 # Desde pip/pipx
-wpat / wpat --gui)
+wpaz / wpaz --gui)
 
 # Desde Docker
 docker run -it --rm undefined-name12/wpaz
@@ -178,7 +178,7 @@ python main.py --gui
 ## 📂 Estructura del Proyecto
 
 ```
-WPAT/
+WPAZ/
 ├── main.py             # Script principal
 ├── gui.py              # Interfaz gráfica (nueva)
 ├── requirements.txt    # Dependencias
